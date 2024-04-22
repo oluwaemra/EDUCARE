@@ -1,0 +1,722 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#main-header {
+    background-color:#F9E0AE; 
+    padding: 10px; 
+    padding-left: 120px;
+    padding-right: 100px;
+    color: white; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+}
+
+#navbar ul li {
+    display: inline-block; 
+    margin-right: 50px; 
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul li a:hover {
+    color: aliceblue; 
+}
+
+#contact-button {
+    background-color: #C24914; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+
+#contact-button:hover {
+    background-color: #c77c5c; 
+}
+
+.imgCard img {
+    width: 90px;
+}
+
+#section1 {
+    /* margin-left: 10%; */
+    margin-right: 13%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 150px;
+}
+
+
+.mainItems {
+    width: 35%;
+    padding-top: 7%;
+    margin-right: 50px;
+}
+
+.mainItems h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 0%;
+}
+
+.mainItems p {
+    line-height: 1.6;
+    color: gray;
+}
+
+.mainItems button {
+    background-color: #682C0E;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+#section2 {
+    margin-left: 10%;
+    /* margin-right: 13%; */
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+
+.courseItems {
+    width: 35%;
+    padding-top: 2%;
+    float: right;
+    margin-left: 100px;
+}
+
+.courseItems h2 {
+    margin-top: 0%;
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 0%;
+}
+
+.courseItems ul {
+
+    line-height: 1.5;
+    font-size: 112%;
+    padding-bottom: 5px;
+}
+
+.myList {
+    padding: 10px;
+    font-weight: lighter;
+}
+
+#section3 {
+    margin-left: 10%;
+    margin-right: 8%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+.image3 {
+    float: right;
+    margin-left: 10px;
+}
+
+.registerItems h3{
+    font-size: 45px;
+    width: 100%;
+    line-height: 1.5;
+    font-weight: 15px;
+    margin: 0%;
+}
+#section4 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    background-color:#F9E0AE;;
+}
+.subscribe {
+    padding: 3%;
+}
+
+#name {
+    margin-left: 3%;
+    width: 25%;
+    text-align: center;
+    padding: 2%;
+    margin-right: 5%;
+    font-size: 102%;
+}
+
+#email {
+    width: 25%;
+    text-align: center;
+    padding: 2%;
+    margin-right: 5%;
+    font-size: 102%;
+}
+
+#subscribe {
+    width: 25%;
+    text-align: center;
+    padding: 2%;
+    background-color: #C24914;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 102%;
+}
+
+#section5 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.community {
+    transform: translate(30%, 100%);
+    float: left;
+    font-size: 24px; 
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    align-items: center;
+    width: 40%
+    
+}
+
+.community h2 {
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+}
+
+.community p {
+    font-size: 70%;
+    font-weight: lighter;
+    color: gray;
+    margin-bottom: 7%;
+}
+
+.community button {
+    background-color: #FC8621;
+    color: white;
+    font-weight: bold;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    border-style: hidden;
+    
+}
+
+
+#footer {
+    background-color: #F9E0AE;
+    justify-content: center  ;
+}
+
+.myfooter {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.myfooter img {
+    float: left;
+    width: 90px;
+    height: 50px;
+    padding-top: 50px;
+}
+.title {
+    font-weight: bold;
+    color: black;
+    font-size: 100%;
+}
+
+.links {
+    float: right;
+    /* margin-left: 10%; */
+    width: max-content;
+}
+
+.links ul {
+    /* padding-left: 5%; */
+    line-height: 2;
+    color: gray;
+    font-size: 80%;
+    width: max-content;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+}
+
+.follow img {
+    padding-right: 15px;
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.follow div{
+    display: flex;
+}
+.contact {
+    float: right;
+    /* margin-left: 10%; */
+}
+
+.body {
+    line-height: 2;
+    color: gray;
+    font-size: 80%;
+    width: max-content;
+}
+
+.copyright {
+    display: flex;
+    padding-left: 40%;
+    padding-right: 40%;   
+}
+
+.copyright img {
+    width: 7%;
+    height: 7%;
+    margin-top: 16px;
+    padding-right: 5%;
+}
+
+.copyright p {
+    color: gray;
+    font-size: 90%;
+}
+
+@media(max-width: 768px) {
+    #main-header {
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+    #contact-button {
+        display: none;
+    }
+    #navbar ul li {
+        margin-right: 10px; 
+    }
+    .imgCard {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section1 {
+        display: grid;
+        margin-bottom: 0;
+    }
+
+    .image img{
+        height: 300px;
+        width: 300px;
+        padding: 0 20px;
+    }
+
+    .mainItems {
+        width: 320px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .mainItems h1 {
+        margin-top: 0;
+    }
+
+    .mainItems button {
+        margin-left: 100px;
+        margin-right: 50px;
+    }
+
+    #section2 {
+        display: grid;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 0;
+    }
+
+    .image2 img {
+        width: 300px;
+        padding: 0 30px;
+    }
+    .courseItems {
+        margin-left: 25px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .courseItems h2 {
+        font-size: 30px;
+    }
+    
+    .courseItems ul{
+        margin: 0;
+        line-height: 1;
+    }
+    .myList {
+        padding: 5px;
+    }
+
+    #section3 {
+        display: grid;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .image3 img{
+        padding: 0 30px;
+        width: 300px;
+    }
+
+    .registerItems {
+        text-align: center;
+        width: 350px;
+        margin-left: 5px;
+    }
+
+    .registerItems h3{
+        font-size: 30px;
+
+    }
+
+    #section4 {
+        display: grid;
+        height: fit-content;
+        margin-top: 0;
+    }
+
+    .subscribe{
+        padding: 0;
+        height: fit-content;
+        display: grid;
+        justify-content: center;
+    }
+    #name {
+        margin-top: 20px;
+        width: fit-content;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    #email {
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+    #subscribe {
+        width: fit-content;
+        margin-bottom: 20px;
+        padding: 10px 50px;
+    }
+
+    .groupImg img{
+        width: 300px;
+    }
+
+    .community {
+        width: 150px;
+        transform: translate(10%, 40%);
+    }
+
+    .community h2{
+        font-size: 100%;
+    }
+    .community p{
+        font-size: 50%;
+    }
+    .community button {
+        font-size: 30%;
+    }
+
+    .myfooter {
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
+    .myblock {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        width: 340px; 
+    }
+    .myblock2 {
+        display: inline-flex;
+        flex-direction: row;
+        width: 340px; 
+    }
+
+
+
+    .myfooter img {
+        float: none;
+        padding-right: 50px;
+    }
+
+    .follow img {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    p.body {
+        margin: 0;
+    }
+
+    .links p {
+        padding-left: 20px;
+    }
+
+    .copyright img {
+        width: 20px;
+        height: 20px;
+        margin-top: 16px;
+        padding-right: 5%;
+    }
+
+    .links ul{
+        width: fit-content;
+    }
+
+    .copyright p{
+        font-size: 70%;
+    }  
+
+}
+
+/* IPHONE XR */
+/* @media only screen and (min-width: 414px){
+    #navbar ul li {
+        margin-right: 20px; 
+    }
+
+    .image img {
+        padding: 0 55px;
+    }
+    .image2 img {
+    
+        padding: 0 50px;
+    }
+    .courseItems {
+        margin-left: 35px;
+        
+    }
+    .image3 img{
+        padding: 0 50px;
+
+    }
+    .registerItems {
+        margin-left: 15px;
+    }
+
+    .groupImg img{
+        width: 400px;
+    }
+
+    .community {
+        width: 200px;
+        transform: translate(10%, 60%);
+    }
+} */
+
+/* IPAD MINI */
+@media only screen and (min-width: 768px){
+
+    #main-header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px 50px;
+    }
+    .imgCard {
+        margin: 0;
+    }
+    #contact-button {
+        display: block;
+    }
+    #section1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin: 0px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        width: fit-content;
+    }
+    .mainItems {
+        padding-left: 20px;
+        padding-top: 45px;
+        margin-right: 40px;
+        width: 350px;
+       
+    }
+    .image img {
+        float: right;
+        padding-left: 10px;
+        padding-right: 20px;
+        width: 400px;
+        height: 400px;
+    }
+
+    #section2 {
+        display: flex;
+        width: 100%;
+        margin: 15px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .image2 img {
+        padding-left: 0;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .courseItems {
+        padding-top: 40px;
+    }
+    .courseItems h2 {
+        font-size: 35px;
+    }
+    .courseItems ul {
+        line-height: 1.5;
+    }
+    #section3 {
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .image3 img {
+        width: 100%;
+    }
+
+    .registerItems h3{
+        padding-top: 50px;
+        padding-left: 5px;
+    }
+
+    #section4  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        margin-left: 100px;
+    }
+    .subscribe {
+        width: 120%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+
+    #name {
+        width: 25%;
+        margin: 0;
+    }
+    #email {
+        width: 25%;
+        height: 32px;
+        margin: 0;
+    }
+    #subscribe {
+        height: 60px;
+        margin: 0;
+    }
+
+    #section5 {
+        width: 100%;
+        margin-left: 80px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    .community {
+        transform: translate(30%, 90%);
+        font-size: 30px;
+        width: fit-content;
+
+    }
+    .groupImg img {
+        width: 90%;
+    }
+    .community h2 {
+        width: 250px;
+    }
+    .community p{
+        width: 250px;
+    }
+
+    .community button{
+        font-size: 15px;
+    
+    }
+    #footer {
+        width: 868px;
+    }
+    .myfooter {
+        display: flex;
+        justify-content: space-between;
+    }
+    .myblock2 {
+        display: flex;
+        width: 100%;
+    }
+    .myblock {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: max-content;
+        margin: auto;
+    }
+    .links {
+        padding: 0 50px 0 0;
+    }
+    .contact   {
+        padding-left: 50px;
+    }
+    .myblock2 {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: max-content;
+    }
+    
+      
+
+    
+
+}
