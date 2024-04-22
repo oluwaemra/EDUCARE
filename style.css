@@ -256,10 +256,17 @@ body {
 
 .links {
     float: right;
-    /* margin-left: 10%; */
+    /* margin-left: 25%; */
     width: max-content;
+    
 }
-
+/* .myblock2  {
+    width: 500px;
+}
+.myblock {
+    width: 500px;
+    justify-content: space-between;
+} */
 .links ul {
     /* padding-left: 5%; */
     line-height: 2;
@@ -555,7 +562,7 @@ body {
 } */
 
 /* IPAD MINI */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 768px){
 
     #main-header {
         display: flex;
@@ -714,9 +721,5 @@ body {
         margin: auto;
         width: max-content;
     }
-    
-      
-
-    
 
 }
